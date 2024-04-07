@@ -1,0 +1,238 @@
+.nav-bar{
+    background-color: #f8f9fa;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+}
+
+#logo{
+    height: 35px;
+    margin-left: 30px;
+}
+
+.blue-button{
+    height: 35px;
+    width: 140px;
+    margin-right: 30px;
+    background-color: #59A1C9;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 24px 8px 24px;
+    border: 1px solid #59A1C9;
+    border-radius: 300px;
+}
+
+.hero{
+   
+    height: 90vh;
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hero-one{
+    height:80vh ;
+    width: 40vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#hero-two{
+    height:90vh ;
+    width: 50vw;
+   
+
+}
+
+
+#hero-h1{
+    font-weight: 800;
+    font-size: 56px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#hero-p{
+    font-weight: 500;
+    font-size: 1.75rem;
+    padding-right: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+#hero-two{
+    background-image: url(https://cdn.dribbble.com/users/8674665/screenshots/17862115/media/6d2caa9424653f90270ffc3d435ad978.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.entriStories{
+   
+    width: 90vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.entriStories-child{
+    height: 386px;
+    width: 230px;
+   
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+}
+
+.es-text{
+    padding: 8px;
+}
+
+.es-textp{
+    font-size: 12px;
+    font-family: sans-serif;
+   
+}
+
+h3{
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.container-column{
+    
+    height: 400px;
+   
+    
+    
+    background-color:rgb(234,241,245);
+}
+
+.colour-container{
+    height: 500px;
+    width:98.7vw;
+    background-color: rgb(234,241,245);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+.flexcard{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.colint1 {
+    text-align: center;
+    
+}
+.colint1>h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.colint2{
+    text-align: center;
+}
+
+.colint3{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.es-img{
+    
+    height: 216px;
+    width: 230px;
+}
+
+
+.hello{
+    position: absolute;
+   
+
+  
+z-index: 999;
+
+}
+
+
+
+
+.entri-blocks{
+    height: 80vh;
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+spanclass{
+    height: 100px;
+    width: 100px;
+}
+.ebc{
+    height: 75vh;
+    width: 25vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+h5{
+    font-weight: 800;
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #59A1C9;
+}
+.logoebz{
+    margin-top: 30px;
+}
+
+.est{
+    text-align: center;
+}
+
+
+.EntriFooter{
+    background-color: rgb(255,255,255);
+    height: 400px;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
